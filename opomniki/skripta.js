@@ -15,7 +15,7 @@ window.addEventListener('load', function() {
 		document.querySelector("#naziv_opomnika").value = "";
 		document.querySelector("#cas_opomnika").value = "";
 		document.querySelector("#opomniki").innerHTML += " \
-		<div class='opomnik> <div class='naziv_opomnika'>" + naziv_opomnika + "</div> <div class='cas_opomnika'>Opmonik čez<span>" + cas_opomnika + "</span>sekund.</div></div>";
+		<div class='opomnik> <div class='naziv_opomnika'>" + naziv_opomnika + "</div> <div class='cas_opomnika'>Opmonik čez <span>" + cas_opomnika + "</span>sekund.</div></div>";
 	}
 	document.querySelector("#prijavniGumb").addEventListener('click', izvediPrijavo);
 	document.querySelector("#dodajGumb").addEventListener('click', izvediDodaj);
